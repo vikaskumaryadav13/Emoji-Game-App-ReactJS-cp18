@@ -1,0 +1,27 @@
+/* Write your code here. */
+.app-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+}
+
+.emoji-cards-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 910px;
+  margin: auto;
+  padding-left: 0;
+  list-style-type: none;
+  gap: 12px;
+  margin-top: 85px;
+}
+@media screen and (min-width: 768px) {
+  .emoji-cards-list {
+    margin-top: 42px;
+  }
+}

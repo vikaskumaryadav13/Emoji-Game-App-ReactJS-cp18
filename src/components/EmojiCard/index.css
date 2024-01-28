@@ -1,0 +1,24 @@
+/* Write your code here. */
+.emoji-item {
+  padding: 0;
+}
+.emoji-button {
+  padding: 24px;
+  border-radius: 22px;
+  border: 2px solid #ffffff30;
+  background-color: #ffffff33;
+  margin: 0;
+}
+.emoji-image {
+  width: 70px;
+  height: 70px;
+}
+@media screen and (min-width: 768px) {
+  .emoji-button {
+    padding: 38px 52px;
+  }
+  .emoji-image {
+    width: 100px;
+    height: 100px;
+  }
+}
